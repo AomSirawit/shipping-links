@@ -159,7 +159,6 @@ h3 {
   
   .heading {
     color:  hsl(0, 0%, 100%); 
-    text-shadow: 2px 2px 3px #3d3d3d;
     font-size: 30px;
     display: inline-block;
     position: relative;
