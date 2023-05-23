@@ -119,12 +119,45 @@ h3 {
     
   }
   
-  .heading-container {
+  .heading-container1 {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #ff3333;
+    position: relative;
+  }
+  
+  .heading-container2 {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #f37024;
+    position: relative;
+  }
+  
+  .heading-container3 {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #ee1c25;
+    position: relative;
+  }
+  
+  .heading-container4 {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #231f20;
+    position: relative;
+  }
+  
+  .heading-container5 {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #ffcc00;
+    position: relative;
+  }
+  
+  .heading-container6 {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #ffea33;
     position: relative;
   }
   
   .heading {
-    color: hsl(218, 44%, 22%);
+    color:  hsl(0, 0%, 100%); 
+    text-shadow: 2px 2px 3px #3d3d3d;
     font-size: 30px;
     display: inline-block;
     position: relative;
