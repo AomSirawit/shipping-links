@@ -86,3 +86,48 @@ body{
         display: none;
     }
 }
+  header {
+    color: hsl(218, 44%, 22%);
+    margin: 10vh 5vh 5vh;
+    text-align: center;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+}
+.box{
+    border-radius: 15px;
+    width: 400px; 
+    height: 550px; 
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.box img{
+    width: 100%;
+    border-radius: 15px;
+}
+.box h3{
+    color: hsl(218, 44%, 22%);
+    margin-top: 30px;
+}
+.box p{
+    color: hsl(220, 15%, 55%);
+}
+footer p{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin-top: 50px;
+}
+footer a{
+    color: hsl(220, 15%, 55%);
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .box{
+        width: 300px;
+        height: 450px;
+    }
+}
